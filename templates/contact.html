@@ -1,0 +1,53 @@
+<html>
+    <head>
+
+        <title>Harsh's Blog</title>
+        <link rel = "stylesheet" href = "{{url_for('.static', filename='style.css')}}" >
+
+    </head>
+
+    <body>
+
+        <section class="section1">
+            <div class="div1-contact">
+                {% include "navbar.html" %}
+
+                <div>
+                    <div class="writing-portion-div1">
+                        <div class="writing-portion-div2">
+                            <h1 class="h1">Contact Me.</h1>
+                            <p class="p">Have Questions?I have answers.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="get-in-touch">
+                    <p>want to get in touch?Fill out the form below to send me a message and I will reply to you as
+                        soon as possible.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section2">
+            <form action="{{url_for('contact')}}" method="POST">
+                <label id="label">Name</label>
+                <input type="text" class="form-control" placeholder="Name" name="username">
+
+                <label id="label">Email Address</label>
+                <input type="email" class="form-control" placeholder="Email Address" id="email" name="email">
+
+                <label id="label">Phone No.</label>
+                <input type="tel" class="form-control" placeholder="Phone No." id="phone" name="number">
+
+                <label id="label">Message</label>
+                <textarea class="form-control" placeholder="message" id="message" name="message"></textarea>
+
+                <button type="submit" class=" btn btn-lg btn-success"  id="">Send</button>
+
+            </form>
+        </section>
+        {% include "footer.html" %}
+
+
+    </body>
+</html>
+

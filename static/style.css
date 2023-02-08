@@ -1,0 +1,107 @@
+
+#nav-bar {
+    padding: 1.5% 4%;
+}
+
+#brand {
+    color: white;
+    font-family:"ubunto",sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+}
+#link {
+    color: white;
+    margin-right: 80px;
+    font-size: 1.6rem;
+    font-weight: 200;
+}
+#link:hover {
+    background-color: #54bab9;
+}
+
+.index-writing-portion-heading {
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    color: #fff;
+
+}
+h1 {
+    /* background-color: black; */
+    font-family: "Montserrat",sans-serif;
+    font-size: 2.5rem;
+}
+.pera {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    padding-top: 0.5% 0%;
+}
+
+
+.section2 {
+    padding-top: 50px;
+    color: black;
+    padding: 3% 25%;
+
+}
+.main-port {
+    padding: 1.5% 20%;
+    margin: 2% 0;
+
+}
+
+#heading {
+    color:black;
+}
+
+#heading:hover {
+    color: #54bab9;
+
+}
+
+/* index1 */
+.div1-index1 {
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.3)), url(images/cactus1.jpg);
+    height: 100vh;
+    background-size:cover;
+    background-position: center;
+}
+
+footer {
+    padding: 3% 40%;
+    font-size: 1.5rem;
+}
+
+#hr-footer {
+    margin:0 20%;
+}
+#icon {
+    margin: 20px;
+}
+
+.main-form {
+    padding: 1.5% 20%;
+    margin: 1.5% 0;
+
+}
+.form-pera {
+    font-family: 'bold', sans-serif;
+    font-size: 1.5rem;
+    padding-top: 0.5% ;
+    margin-left: 30%;
+}
+
+.home_body {
+    padding: 1.5% 20%;
+    margin: 1.5% 0;
+}
+.index-writing-portion-sub-heading{
+    font-size:2.5rem;
+    color: white;
+    text-shadow: 5px 5px 15px 2px red;
+
+
+}
